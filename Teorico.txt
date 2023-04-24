@@ -1,0 +1,23 @@
+1) Tabla: ALUMNOS
+
+A) Qué cardinalidad tiene esta relación?
+La cardinalidad es de 6 tuplas (las columnas no son parte de la cardinalidad)
+
+B) Cuál es el grado de la relación?
+El grado de relación es de 5 atributos
+
+C) Dicha tabla representa una entidad o una interrelación? Justificar.
+Es una entidad porque la PK es simple. Es una entidad porque todos los atributos le pertenecen a la tabla Alumnos. No posee columnas de otra tabla. Si fuera una relación, la PK sería compuesta y linkear dos tablas, o más, distintas. En este caso, es una tabla en sí misma. 
+
+2) Tabla1
+
+A) Definir el dominio para la columna NOTA.
+El dominio de la columna Nota es del 1 al 10
+
+B) Colocar un nombre técnico a la relación.
+Tabla: NOTAS
+
+C) Indicar cuál o cuáles campos pueden identificar a la fila unívocamente.
+Los campos que identifican la fila es legajo && materia. Pero ninguno es PK. Porque vos tenes legajo repetido pero de distinta materia. La PK va a ser compuesta cuando tengas legajo y materia juntos.
+
+
